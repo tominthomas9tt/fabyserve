@@ -8,8 +8,8 @@ if (ENVIRONMENT !== 'production') {
 	// application will be connected to DEV database
 	$hostname = "localhost";
 	$username = "root";
-	$password = "";
-	$database = "";
+	$password = "root";
+	$database = "fabyserve";
 } else {
 	// application will be connected to PRODUCTION database
 	$hostname = "151.106.124.1";

@@ -18,7 +18,7 @@ class Pages extends CI_Controller
     }
 
 
-    public function router($function)
+    public function router($function = "home")
     {
         $canProceed = true;
         if ($canProceed) {
